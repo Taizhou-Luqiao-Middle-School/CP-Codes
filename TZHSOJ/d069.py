@@ -1,23 +1,11 @@
-c = input()
-l = ['A','B','C','D','E','F','G','H','I','J','K','L',"M",'N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-
-n=1
-for i in l:
-    if c==i:
-        break
-    n+=1
-
-for i in range (0,n):
-    s = ""
-    for j in range (0,(n-i-1)):
-        s = s+' '
-    for j in range (0,2*i+1):
-        s = s+l[i]
-    print(s)
-for i in range (0,n-1):
-    s = ""
-    for j in range (0,i+1):
-        s = s+' '
-    for j in range (0,2*(n-i-1)-1):
-        s = s+l[n-i-2]
-    print(s)
+s = input()
+n = ord(s[0:1]) - 64
+for i in range(1, 2*n):
+    k1 = abs(i - n)
+    for j in range(k1):
+        print(" ", end="")
+    k2 = n - k1
+    for j in range(2 * k2 - 1):
+        print(chr(64 + k2), end="")
+    print()
+    
