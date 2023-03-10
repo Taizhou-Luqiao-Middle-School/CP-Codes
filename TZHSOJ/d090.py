@@ -1,4 +1,4 @@
 a=input()
 b=input()
 c=int(a)+int(b)
-print(c)
+print(c) #c++：wdnmd
