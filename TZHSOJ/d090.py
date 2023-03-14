@@ -3,3 +3,4 @@ b=input()
 c=int(a)+int(b)
 print(c)
 #c++:wdnmd
+ 
