@@ -11,3 +11,4 @@ b=int(b)
 c=int(c)
 ans=jc(a)+jc(b)+jc(c)
 print(ans)
+ 
