@@ -13,3 +13,4 @@ d=int(d)
 c1=jc(a)/(jc(b)*jc(a-b))
 c2=jc(c)/(jc(d)*jc(c-d))
 print(int(c1)+int(c2))
+ 
