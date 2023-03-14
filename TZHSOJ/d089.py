@@ -4,3 +4,4 @@ for i in a:
     if i==' ' or i==',':
         ans=ans+1
 print(ans)
+ 
