@@ -1,10 +1,6 @@
-import math as m
- 
-a = float(input())
- 
-a = m.ceil(a)
- 
-if a <= 3:
+c=float(input())
+if(c<=3):
     print(10)
 else:
-    print(10 + (a - 3) * 2)
+    d=int(c-2.001)
+print(int(10+2*d))

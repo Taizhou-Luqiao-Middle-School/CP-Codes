@@ -1,7 +1,16 @@
-a,b,n = input().split()
-a = int(a)
-b = int(b)
-n = int(n)
-a = a%b
-a = a*(10**n)
-print( int(a/b) )
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+a%=b
+p=0
+ans=""
+n=a
+while(p<c):
+    n%=b
+    n*=10
+    ans+=str(n//b)
+    p+=1
+
+print(ans)
+
