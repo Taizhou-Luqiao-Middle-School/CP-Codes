@@ -1,6 +1,0 @@
-a,b=input().split()
-a=int(a)
-b=int(b)
-m = int(a/b)
-n= float (a/b)
-print (m,"%.2f"%n )

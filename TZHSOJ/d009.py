@@ -1,6 +1,0 @@
-a,b,h=input().split()
-a=int(a)
-b=int(b)
-h=int(h)
-s=float( (a+b)*h/2.0 )
-print("%.2f"%s)
